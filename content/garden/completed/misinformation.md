@@ -16,7 +16,11 @@ In this work, we take a novel angle to consolidate the definition of misinformat
 - We provide insights about the MisLC task through empirical evidence, from the problem definition to experiments and expert involvement. 
 
 While the latest large language models and retrieval-augmented generation are effective baselines for the task, we find they are still far from replicating expert performance.
-
+## Significance
+This project studied:
+- How to effectively cover more data in annotations while budgeting between general and specialized annotators
+- How to practically apply the state-of-the-art in RAG to real-world data
+- How to ground evaluations to be meaningful to another, specialized audience
 
 ## Post-mortem
 Recently, I read other researchers discussing what is research that is done for the sake of getting published, and what is research that is meaningful. There are an obviously infinite number of projects we can pursue in one lifetime, but a finite amount of time, so it is important to choose the deeper explorations carefully. In this case, the misinformation project was just trying to transfer some of my ideas from [[legalhatespeech]] on a new task, but it did not synergize as well.
