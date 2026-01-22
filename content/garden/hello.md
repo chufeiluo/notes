@@ -3,9 +3,10 @@ title: "Hello!"
 ---
 
 # Hello!
-Welcome! This is a WIP
+Welcome!
 
 ## Main starting points
 [[Completed Projects]]
 
 Link to another note [[Hi]]
+
