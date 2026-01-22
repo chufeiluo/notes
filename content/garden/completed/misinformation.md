@@ -31,4 +31,4 @@ I've come to realize that a lot of unoriginal thought comes from focusing too mu
 
 Also, I was just really burnt out at the time and I didn't do as much as I wanted for this paper. Like I previously mentioned, I didn't put model training into this paper - I actually did attempt tuning a 7b model with LoRA, but I started too late. I wanted to compare human to LLM-generated annotations. I wanted to do a more careful design of the RAG pipeline.
 
-Of course, all of these feelings are normal for a project after it's done - this one is just memorable because it felt like a culmination of my burnout. Maybe I will do all of the above for my thesis, or for another paper. Maybe I will leave this project untouched for the rest of eternity.
+Of course, all of these feelings are normal for a project after it's done - this one is just memorable because it felt like a culmination of my burnout. Maybe I will do all of the above for my thesis, or for another paper. Maybe I will leave this project untouched for the rest of eternity. Either way, I think the regrets I have over this project have carried over into subsequent work.
