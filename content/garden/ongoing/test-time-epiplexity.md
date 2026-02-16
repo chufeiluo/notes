@@ -1,8 +1,14 @@
 ---
-title: "Test-time epiplexity"
+title: "Asking better questions by estimating Test-time epiplexity"
 ---
 
 # Test-Time Epiplexity
+I think a lot about new ways AI can collaborate with humans, not just statically/passively churn on a task. Cursor and Claude Code can ask a user questions, which is a start, but how good is a language model's guage of what needs to be asked? e.g. I notice Claude Code really only asks high-level, conceptual questions but still gets minor implementation details wrong because it made some incorrect assumptions.
+
+The main goal of this project is getting a language model to ask better questions, which would reduce the overall amount of tokens required to complete a specific task.
+
+## Messier notes
+
 Most questions are asked to clarify and align model beliefs with human beliefs when there are ambiguities in the known context (epistemic) or the model’s proposed answer (aleatoric)
 
 [To Believe or Not to Believe Your LLM](https://arxiv.org/abs/2406.02543)
@@ -15,7 +21,7 @@ We want the model to continually refine its own internal state until it hits a p
 
 i.e. we want the question that maximizes the student’s model of the problem given, i.e. minimizes the randomness of the outcome
 
-[From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence](https://arxiv.org/abs/2601.03220
+[From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence](https://arxiv.org/abs/2601.03220)
 
 Epiplexity assumes that there is access to the training process - either a student that can learn from a teacher model, or a model trained from random initialization (?)
 

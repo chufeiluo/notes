@@ -17,5 +17,7 @@ This project studied:
 - It was one of the first to benchmark LLMs - most of the experiments were completed January 2023 - against existing prompt tuning methods
 - What is the source of ambiguity in other hate speech datasets
 
+The paper also studied how to use self-training with silver labels to improve performance to match GPT-4 but with a much smaller model (RoBERTa-Large). This was only on a 3-way classification task and, as found in follow-up studies ([[sae-pd]]), there are some lexical features that allow LLMs to learn this classification label really well with few-shot prompting. 
+
 ## Post mortem
-I still like this project. I think I'm still proud of it. I wish I could do research this good again
+I still like this project. I think I'm still proud of it. I don't think the reasoning analysis is in-depth enough by today's standards, and my thoughts on model training vs. prompting flip-flop every so often, but it's been a while since I've had a paper compare model training to prompting. 

@@ -15,11 +15,13 @@ Our study builds on and leverages the state-of-the-art language processing model
 
 ## Significance
 This project studied:
-- How to further fine-tune a pre-trained model to become more interpretable
+- How to modify a pre-trained model to have inherent interpretability. 
 - How to design tasks and evaluations catered to legal experts
 - Tradeoffs between interpretability and abstraction
+  
+Many people assume that there is a tradeoff between inherent interpretability and model performance, and a model that's easier to understand loses some of the complexities. This work is both supporting and refuting that; while there is some amount of information lost in the "non-procedural" citations that have more abstract/analogous relationships between each other (e.g. don't have much keyword overlap, etc.), the **overall system performs better** after organizing the latent space more clearly.
 
 ## Post mortem
-I like this paper, still. This was my first paper accepted to a top venue, and I did all of the methodology myself.
+I like this paper, still. This was my first paper accepted to a top venue, after a year of being in review (it was first submitted to EMNLP in 2022, accepted to ACL 2023).
 
-I think hindsight is 20-20 - many people complain that reviews are harsh now, but they were honestly just as harsh in 2022, if not harsher. I won't complain about them too much here, but let's just say peer review has never been kind to me. It also feels like another world, honestly. I don't know if the ideas we presented in this paper would be accepted now. It's gotten better recently, but I think that's an aspect of research that burns me out quickly - the feeling that my body of work is no longer interesting to anyone, and the feeling that I need to chase the crowd to be taken seriously.
+I think hindsight is 20-20 - many people complain that reviews are harsh now, but they were honestly just as harsh in 2022, if not harsher. I won't complain about them too much here, but let's just say peer review has never been kind to me. It also feels like another world, honestly. I don't know if the ideas we presented in this paper would be accepted now - it doesn't feel like inherent interpretability is as popular as mechanistic interpretability. It's gotten better recently, but I think that's an aspect of research that burns me out quickly - the feeling that my body of work is no longer interesting to anyone. I think nowadays, I'm more satisfied just pursuing what I find interesting.

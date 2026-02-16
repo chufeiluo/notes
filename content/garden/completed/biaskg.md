@@ -16,7 +16,9 @@ This project studied:
 - How social bias can change depending on the input prompt
 
 ## Post mortem
-I like the knowledge graph portion of this project, but I think the application to red-teaming is somewhat impractical now that the field is more mature. It was a good first attempt in a relatively new space, but red-teaming LLMs seems to be a fool's errand. There will always be a corner that is untested, and unlike traditional software, the cost of patching a hole is more than modifying some code - you would need to retrain the model, probably quite significantly.
+I like the knowledge graph portion of this project, but I think the application to red-teaming is somewhat impractical now that the field is more mature. It was a good first attempt in a relatively new space, but red-teaming LLMs seems to be a fool's errand. There will always be a corner that is untested, and unlike traditional software, the cost of patching a hole is more than modifying some code - you would need to retrain the model, which could be extremely expensive even for a few training steps.
 
 In general, this project made me realize poorly trained LLMs still have all of the flaws of their predecessors. Minor changes in the input can result in significant changes to the output. Also, the temperature and other sampling parameters could change the result significantly. Recent models have removed temperature completely, probably for this reason. I realized that publishing on API-based models was also a fool's errand. We performed experiments with the same model (GPT-3.5) several months apart and received completely different results.
+
+Recent works in red-teaming look at the hidden representations instead of the final outputs, and I think these draw deeper insights into refusals. I might revisit this project from that lens, but I also have other projects that I would revisit first.
 
