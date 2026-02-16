@@ -1,5 +1,5 @@
 ---
-title: "Towards legally enforceable hate speech detection for public forums"
+title: "legalhatespeech"
 ---
 
 # Towards legally enforceable hate speech detection for public forums

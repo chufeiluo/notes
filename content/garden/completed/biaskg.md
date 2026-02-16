@@ -1,5 +1,5 @@
 ---
-title: "BiasKG: Adversarial Knowledge Graphs to Induce Bias in Large Language Models"
+title: "biasKG"
 ---
 
 # BiasKG: Adversarial Knowledge Graphs to Induce Bias in Large Language Models

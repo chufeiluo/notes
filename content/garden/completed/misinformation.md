@@ -1,5 +1,5 @@
 ---
-title: "Misinformation with legal consequences (MisLC): A new task towards harnessing societal harm of misinformation"
+title: "mislc"
 ---
 
 # Misinformation with legal consequences (MisLC): A new task towards harnessing societal harm of misinformation

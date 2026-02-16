@@ -1,5 +1,5 @@
 ---
-title: "Towards Low-Resource Alignment to Diverse Perspectives with Sparse Feedback"
+title: "sae-pd"
 ---
 
 # Towards Low-Resource Alignment to Diverse Perspectives with Sparse Feedback

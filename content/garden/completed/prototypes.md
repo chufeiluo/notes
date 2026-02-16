@@ -1,5 +1,5 @@
 ---
-title: "Prototype-based Interpretability for Legal Citation Prediction"
+title: "prototypes"
 ---
 
 # Prototype-based Interpretability for Legal Citation Prediction

@@ -1,8 +1,8 @@
 ---
-title: "Asking better questions by estimating Test-time epiplexity"
+title: "test-time-epiplexity"
 ---
 
-# Test-Time Epiplexity
+# Asking better questions by estimating Test-time epiplexity
 I think a lot about new ways AI can collaborate with humans, not just statically/passively churn on a task. Cursor and Claude Code can ask a user questions, which is a start, but how good is a language model's guage of what needs to be asked? e.g. I notice Claude Code really only asks high-level, conceptual questions but still gets minor implementation details wrong because it made some incorrect assumptions.
 
 The main goal of this project is getting a language model to ask better questions, which would reduce the overall amount of tokens required to complete a specific task.
