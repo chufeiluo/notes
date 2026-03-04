@@ -11,7 +11,7 @@ Modern large language models (LLMs) have a significant amount of world knowledge
 In this work, we propose a new methodology for attacking language models with knowledge graph-augmented generation. We refactor natural language stereotypes into a knowledge graph, and use adversarial attacking strategies to induce biased responses from several open- and closed-source language models. We find our method increases bias in all models, even those trained with safety guardrails. This demonstrates the need for further research in AI safety, and further work in this new adversarial space.
 ## Significance
 This project studied:
-- How to create a knowledge graph from natural language phrases
+- How to create a dynamic knowledge graph from natural language phrases
 - How to attack language models in a thorough, automated way
 - How social bias can change depending on the input prompt
 
